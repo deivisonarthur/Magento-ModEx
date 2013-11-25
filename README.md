@@ -86,10 +86,15 @@ Executando a extração do módulo
 =============
 
 1-Primeiramente entre em seu SSH e baixe o Shell Script ModEx.sh em sua raiz do Magento.
+
 2-Dê a permissão de execução ao ModEx.sh com o comando:
 ```chmod +x ModEx.sh```
+
 3-Busque e extraia o módulo com o comando:
 ```./modex.sh -s Inovarti_GoogleAdwords```
+
+PS: o atributo "s" indica que será passado uma string ao ModEx, pois irei implementar a extração em uma pasta ao invés de um arquivo compactado, 
+com isso conseguimos entrar na pasta, ver se esta tudo certo e iniciar o processo de envio do módulo para o Github.
 
 4-Se tudo der certo, vc verá que existe em sua raiz do Magento um arquivo .tar.gz, nesse caso criou o ModEx-Inovarti_GoogleAdwords-22.tar.gz
 

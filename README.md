@@ -56,11 +56,11 @@ Como funciona?
 Primeiramente precisa-se ter um padrão de desenvolvimento de módulo no Magento, para isso pode-se usar uma regra do PHPDocs 
 que pede que seja incluso comentários descritivos em todos os arquivos que compoem o módulo, veja mais em:
 
-*http://manual.phpdoc.org/HTMLSmartyConverter/HandS/phpDocumentor/tutorial_tags.package.pkg.html
-*http://manual.phpdoc.org/HTMLSmartyConverter/HandS/phpDocumentor/tutorial_tags.pkg.html
-*http://manual.phpdoc.org/HTMLSmartyConverter/HandS/phpDocumentor/tutorial_phpDocumentor.quickstart.pkg.html
-*http://www.phpdoc.org/docs/latest/for-users/phpdoc/basic-syntax.html
-*https://github.com/phpDocumentor/phpDocumentor2/releases/tag/v2.0.0
+* http://manual.phpdoc.org/HTMLSmartyConverter/HandS/phpDocumentor/tutorial_tags.package.pkg.html
+* http://manual.phpdoc.org/HTMLSmartyConverter/HandS/phpDocumentor/tutorial_tags.pkg.html
+* http://manual.phpdoc.org/HTMLSmartyConverter/HandS/phpDocumentor/tutorial_phpDocumentor.quickstart.pkg.html
+* http://www.phpdoc.org/docs/latest/for-users/phpdoc/basic-syntax.html
+* https://github.com/phpDocumentor/phpDocumentor2/releases/tag/v2.0.0
 
 
 Por exemplo:
@@ -103,6 +103,14 @@ Caso queira ver como fica o arquivo compactado com o exemplo acima, acesse: http
 
 Bem é isso pessoal, espero ter ajudado e contribuido para um desenvolvimento mais ágil e padronizado!
 
+Observações
+=============
+* Não execute o ModEx em sua loja de produção! Utilize um ambiente seguro com linux e o magento default para testar!
+* Utilize somente para estudos, apesar de ter sido bastante estudado como formar o Shell Script, não homologamos por completo!
+* Não busca por strings padrões e genéricas como "magento", pois seu sistema pode entrar em loop.
+* Apesar de feito para extração de módulos Magento por conta de sua diversidade de pastas, sua lógica pode ser utilizada também em outros sistemas.
+* Não remova os créditos! Senão nós iremos te achar e falar publicamente sobre a remoção dos créditos! rs 
+
 Creditos:
 =============
 ```
@@ -111,8 +119,14 @@ Creditos:
 -> Isaac Lopes <isaac@inovarti.com.br>
 ```
 
-Licença GPL3
+Licença GPLv3
 =============
 
-Este arquivo esta sujeito a versao 3 da GNU General Public License, que foi adicionada nesse pacote no arquivo COPYING e esta disponivel pela Web em http://pt.wikipedia.org/wiki/GNU_General_Public_License Voce deve ter recebido uma copia da GNU Public License junto com esse pacote; se nao mande um email para os mantenedores do projeto.
+Este arquivo esta sujeito a versao 3 da GNU General Public License, que foi adicionada nesse pacote no arquivo COPYING e esta disponivel pela Web em http://pt.wikipedia.org/wiki/GNU_General_Public_License; Qualquer notificação mande um email para os mantenedores do projeto.
+
+http://www.gnu.org/licenses/gpl-3.0.html
+
+A GPL3 é recursiva! Com isso não haverá proteção intelectual sobre tais sistemas! Ou seja, GPL é viral. O que significa dizer que qualquer coisa que ela toca, vira GPL. Se você usar uma biblioteca GPL, seu aplicativo será GPL.
+
+Veja mais em: http://www.deivison.com.br/blog/2012/12/05/como-remover-a-licenca-de-modulos-do-magento/
 

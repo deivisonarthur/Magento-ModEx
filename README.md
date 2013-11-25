@@ -51,15 +51,36 @@ EUREKA!!!! Bem com esses 2 tipos de comentários conseguimos colocar a string qu
 HTML, CSS, JS, PHP,... E assim também conseguiriamos buscar todos os arquivos que contenham a string buscada, independentemente 
 de onde ela esteja em nossa instalação do Magento!
 
+Como funciona?
+=============
+Primeiramente precisa-se ter um padrão de desenvolvimento de módulo no Magento, para isso pode-se usar uma regra do PHPDocs 
+que pede que seja incluso comentários descritivos em todos os arquivos que compoem o módulo, por exemplo:
+
+```
+/**
+ *
+ * @category   Inovarti
+ * @package    Inovarti_GoogleAdwords
+ * @author     Suporte <webmaster@inovarti.com>
+ * @version 1.0 this version tag is parsed
+ */
+```
+PS: Esse comentário precisa estar presente em todos os arquivos que compoem o módulo! Pois utilizaremos a parte setado no 
+@package para realizar a busca pelos arquivos do módulo. Nesse caso seria a string: Inovarti_GoogleAdwords
+
+
+
 
 Creditos:
 =============
+```
 created in: 20131125    
 
 by:    
 -> Deivison Arthur <deivison.arthur@gmail.com> 
 
 -> Samuel Maciel Sampaio <samukasmk@gmail.com> 
+```
 
 Licença GPL3
 =============

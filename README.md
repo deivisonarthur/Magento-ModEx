@@ -1,6 +1,4 @@
 #Magento Module Extractor - ModEx#
-Shell Script de extração de módulos instalados no Magento
-=============
 
         ____            _           _     __  __           _ _____
        |  _ \ _ __ ___ (_) ___  ___| |_  |  \/  | ___   __| | ____|_  __
@@ -8,6 +6,9 @@ Shell Script de extração de módulos instalados no Magento
        |  __/| | | (_) | |  __/ (__| |_  | |  | | (_) | (_| | |___ >  <
        |_|   |_|  \___// |\___|\___|\__| |_|  |_|\___/ \__,_|_____/_/\_\
                      |__/
+                     
+Shell Script de extração de módulos instalados no Magento
+=============                     
 
 objective: Extracts modules of magento apps   
 Versao Beta

@@ -54,7 +54,16 @@ de onde ela esteja em nossa instalação do Magento!
 Como funciona?
 =============
 Primeiramente precisa-se ter um padrão de desenvolvimento de módulo no Magento, para isso pode-se usar uma regra do PHPDocs 
-que pede que seja incluso comentários descritivos em todos os arquivos que compoem o módulo, por exemplo:
+que pede que seja incluso comentários descritivos em todos os arquivos que compoem o módulo, veja mais em:
+
+*http://manual.phpdoc.org/HTMLSmartyConverter/HandS/phpDocumentor/tutorial_tags.package.pkg.html
+*http://manual.phpdoc.org/HTMLSmartyConverter/HandS/phpDocumentor/tutorial_tags.pkg.html
+*http://manual.phpdoc.org/HTMLSmartyConverter/HandS/phpDocumentor/tutorial_phpDocumentor.quickstart.pkg.html
+*http://www.phpdoc.org/docs/latest/for-users/phpdoc/basic-syntax.html
+*https://github.com/phpDocumentor/phpDocumentor2/releases/tag/v2.0.0
+
+
+Por exemplo:
 
 ```
 /**
@@ -69,7 +78,25 @@ PS: Esse comentário precisa estar presente em todos os arquivos que compoem o m
 @package para realizar a busca pelos arquivos do módulo. Nesse caso seria a string: Inovarti_GoogleAdwords
 
 
+PS: Não é necessário que seja seguido o padrão do PHPDoc, mas que pelo menos tenha um comentário com o nome do módulo em todos os arquivos.
 
+Pos bem, com o comentário setado em todos os arquivos, podemos realizar a busca!
+
+Executando a extração do módulo
+=============
+
+1-Primeiramente entre em seu SSH e baixe o Shell Script ModEx.sh em sua raiz do Magento.
+2-Dê a permissão de execução ao ModEx.sh com o comando:
+```chmod +x ModEx.sh```
+3-Busque e extraia o módulo com o comando:
+```./modex.sh -s Inovarti_GoogleAdwords```
+
+4-Se tudo der certo, vc verá que existe em sua raiz do Magento um arquivo .tar.gz, nesse caso criou o ModEx-Inovarti_GoogleAdwords-22.tar.gz
+
+Caso queira ver como fica o arquivo compactado com o exemplo acima, acesse: http://lojamodelo.inovarti.com.br/ModEx-Inovarti_GoogleAdwords-22.tar.gz
+
+
+Bem é isso pessoal, espero ter ajudado e contribuido para um desenvolvimento mais ágil e padronizado!
 
 Creditos:
 =============

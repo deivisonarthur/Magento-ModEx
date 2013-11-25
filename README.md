@@ -1,4 +1,4 @@
-Magento Module Extractor - ModEx - Versao Beta
+Magento Module Extractor - ModEx
 =============
 
         ____            _           _     __  __           _ _____
@@ -9,7 +9,7 @@ Magento Module Extractor - ModEx - Versao Beta
                      |__/
 
 objective: Extracts modules of magento apps   
-
+Versao Beta
    
 oque é o ModEx?
 =============

@@ -100,7 +100,7 @@ com isso conseguimos entrar na pasta, ver se esta tudo certo e iniciar o process
 
 4-Se tudo der certo, vc verá que existe em sua raiz do Magento um arquivo .tar.gz, nesse caso criou o ModEx-Inovarti_GoogleAdwords.tar.gz
 
-Caso queira ver como fica o arquivo compactado com o exemplo acima, acesse: http://lojamodelo.inovarti.com.br/ModEx-Inovarti_GoogleAdwords-22.tar.gz
+Caso queira ver como fica o arquivo compactado com o exemplo acima, acesse: http://lojamodelo.inovarti.com.br/ModEx-Inovarti_GoogleAdwords-22.tar.gz ou veja no source acima, pois anexei para uma melhor visualização de como fica o source ;)
 
 
 Bem é isso pessoal, espero ter ajudado e contribuido para um desenvolvimento mais ágil e padronizado!

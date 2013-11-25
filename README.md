@@ -14,16 +14,6 @@ objective: Extracts modules of magento apps
 
 created in: 20131125    
 
-
-by:    
--> Deivison Arthur <deivison.arthur@gmail.com> 
-
--> Samuel Maciel Sampaio <samukasmk@gmail.com> 
-
-
-
-Este arquivo esta sujeito a versao 3 da GNU General Public License, que foi adicionada nesse pacote no arquivo COPYING e esta disponivel pela Web em http://pt.wikipedia.org/wiki/GNU_General_Public_License Voce deve ter recebido uma copia da GNU Public License junto com esse pacote; se nao mande um email para os mantenedores do projeto.
-
    
 oque é o ModEx?
 =============
@@ -59,6 +49,22 @@ Sendo mais detalhista verifiquei que seria possível aprimorar essa busca com o 
 strings dentro dos arquivos. Ou seja, basta o desenvolvedor programar dentro de um padrão onde em cada arquivo que 
 compoem o módulo ele incluiria o comentário com o nome do módulo, exemplo:
 
-pre.<!--Modulo_deivison-->
+<!--Modulo_DeivisonArthur--> ou /*Modulo_DeivisonArthur*/
 
+EUREKA!!!! Bem com esses 2 tipos de comentários conseguimos colocar a string que vamos buscar dentro de todos os tipos de arquivos, desde:
+HTML, CSS, JS, PHP,... E assim também conseguiriamos buscar todos os arquivos que contenham a string buscada, independentemente 
+de onde ela esteja em nossa instalação do Magento!
+
+
+
+
+
+by:    
+-> Deivison Arthur <deivison.arthur@gmail.com> 
+
+-> Samuel Maciel Sampaio <samukasmk@gmail.com> 
+
+
+
+Este arquivo esta sujeito a versao 3 da GNU General Public License, que foi adicionada nesse pacote no arquivo COPYING e esta disponivel pela Web em http://pt.wikipedia.org/wiki/GNU_General_Public_License Voce deve ter recebido uma copia da GNU Public License junto com esse pacote; se nao mande um email para os mantenedores do projeto.
 

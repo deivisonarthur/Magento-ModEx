@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!--
+/**
+ *
+ * @category   Inovarti
+ * @package    Inovarti_GoogleAdwords
+ * @author     Suporte <webmaster@inovarti.com>
+ */
+-->
+<config>
+    <modules>
+        <Inovarti_GoogleAdwords>
+            <version>0.1.0</version>
+        </Inovarti_GoogleAdwords>
+    </modules>
+
+    <global>
+        <blocks>
+            <inovarti_googleadwords>
+                <class>Inovarti_GoogleAdwords_Block</class>
+            </inovarti_googleadwords>
+        </blocks>
+        <helpers>
+            <inovarti_googleadwords>
+                <class>Inovarti_GoogleAdwords_Helper</class>
+            </inovarti_googleadwords>
+        </helpers>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <inovarti_googleadwords>
+                    <file>inovarti/googleadwords.xml</file>
+                </inovarti_googleadwords>
+            </updates>
+        </layout>
+    </frontend>
+    <default>
+        <inovarti_googleadwords>
+            <googleadwords>
+                <enabled>0</enabled>
+                <google_conversion_id>0</google_conversion_id>
+                <google_conversion_language>en</google_conversion_language>
+                <google_conversion_format>1</google_conversion_format>
+                <google_conversion_color>ffffff</google_conversion_color>
+                <google_conversion_label>0</google_conversion_label>	
+            </googleadwords>
+        </inovarti_googleadwords>
+    </default>
+</config>

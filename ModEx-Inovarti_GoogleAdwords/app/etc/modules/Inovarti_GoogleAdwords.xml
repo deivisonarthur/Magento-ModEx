@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ *
+ * @category   Inovarti
+ * @package    Inovarti_GoogleAdwords
+ * @author     Suporte <webmaster@inovarti.com>
+ */
+-->
+<config>
+    <modules>
+        <Inovarti_GoogleAdwords>
+            <codePool>local</codePool>
+            <active>true</active>
+        </Inovarti_GoogleAdwords>
+    </modules>
+</config>

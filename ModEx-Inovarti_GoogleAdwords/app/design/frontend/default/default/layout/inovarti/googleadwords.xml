@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--
+/**
+ *
+ * @category   Inovarti
+ * @package    Inovarti_GoogleAdwords
+ * @author     Suporte <webmaster@inovarti.com>
+ */
+-->
+<layout version="0.1.0">
+    <onepagecheckout_index_success>
+        <reference name="before_body_end">
+            <block type="inovarti_googleadwords/block" name="inovarti.googleadwords" />
+        </reference>
+    </onepagecheckout_index_success>
+    <checkout_onepage_success>
+        <reference name="before_body_end">
+            <block type="inovarti_googleadwords/block" name="inovarti.googleadwords" />
+        </reference>
+    </checkout_onepage_success>
+</layout>
+
+
+
+

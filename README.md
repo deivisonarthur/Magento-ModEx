@@ -1,4 +1,5 @@
-Magento Module Extractor - ModEx
+#Magento Module Extractor - ModEx#
+Shell Script de extração de módulos isntalados no Magento
 =============
 
         ____            _           _     __  __           _ _____

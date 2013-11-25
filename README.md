@@ -1,4 +1,4 @@
-Magento-ModEx
+Magento Module Extractor - ModEx - Versao Beta
 =============
 
         ____            _           _     __  __           _ _____
@@ -8,11 +8,7 @@ Magento-ModEx
        |_|   |_|  \___// |\___|\___|\__| |_|  |_|\___/ \__,_|_____/_/\_\
                      |__/
 
-ModEx.sh - Magento Module Extractor - Versao Beta
-
 objective: Extracts modules of magento apps   
-
-created in: 20131125    
 
    
 oque é o ModEx?
@@ -56,15 +52,17 @@ HTML, CSS, JS, PHP,... E assim também conseguiriamos buscar todos os arquivos q
 de onde ela esteja em nossa instalação do Magento!
 
 
-
-
+Creditos:
+=============
+created in: 20131125    
 
 by:    
 -> Deivison Arthur <deivison.arthur@gmail.com> 
 
 -> Samuel Maciel Sampaio <samukasmk@gmail.com> 
 
-
+Licença GPL3
+=============
 
 Este arquivo esta sujeito a versao 3 da GNU General Public License, que foi adicionada nesse pacote no arquivo COPYING e esta disponivel pela Web em http://pt.wikipedia.org/wiki/GNU_General_Public_License Voce deve ter recebido uma copia da GNU Public License junto com esse pacote; se nao mande um email para os mantenedores do projeto.
 

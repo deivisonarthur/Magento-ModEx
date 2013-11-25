@@ -113,6 +113,10 @@ Observações
 * Apesar de feito para extração de módulos Magento por conta de sua diversidade de pastas, sua lógica pode ser utilizada também em outros sistemas.
 * Não remova os créditos! Senão nós iremos te achar e falar publicamente sobre a remoção dos créditos! rs 
 
+Duvidas?
+=============
+Caso tenha alguma dúvida ou comentário envie pelo comentário em: www.deivison.com.br
+
 Creditos:
 =============
 ```
@@ -131,4 +135,12 @@ http://www.gnu.org/licenses/gpl-3.0.html
 A GPL3 é recursiva! Com isso não haverá proteção intelectual sobre tais sistemas! Ou seja, GPL é viral. O que significa dizer que qualquer coisa que ela toca, vira GPL. Se você usar uma biblioteca GPL, seu aplicativo será GPL.
 
 Veja mais em: http://www.deivison.com.br/blog/2012/12/05/como-remover-a-licenca-de-modulos-do-magento/
+
+Gostou do módulo?
+=================
+
+Se você gostou, se foi útil para você, se fez você economizar aquela grana pois estava prestes a pagar caro por aquele módulo pago, pois não achava um solução gratuita que te atendesse e queira prestigiar o trabalho feito efetuando uma doação de qualquer valor, não vou negar e vou ficar grato, você pode fazer isso utilizando o Pagseguro no site ofical do projeto:
+http://onestepcheckout.com.br/ ou como doação ao email 2ds@deivison.com.br
+
+Obrigado!
 

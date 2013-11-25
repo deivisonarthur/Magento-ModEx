@@ -106,12 +106,9 @@ Bem é isso pessoal, espero ter ajudado e contribuido para um desenvolvimento ma
 Creditos:
 =============
 ```
-created in: 20131125    
-
-by:    
 -> Deivison Arthur <deivison.arthur@gmail.com> 
-
 -> Samuel Maciel Sampaio <samukasmk@gmail.com> 
+-> Isaac Lopes <isaac@inovarti.com.br>
 ```
 
 Licença GPL3

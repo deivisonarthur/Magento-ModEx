@@ -49,7 +49,7 @@ Sendo mais detalhista verifiquei que seria possível aprimorar essa busca com o 
 strings dentro dos arquivos. Ou seja, basta o desenvolvedor programar dentro de um padrão onde em cada arquivo que 
 compoem o módulo ele incluiria o comentário com o nome do módulo, exemplo:
 
-<!--Modulo_DeivisonArthur--> ou /*Modulo_DeivisonArthur*/
+<!--Modulo_DeivisonArthur--> ou / * Modulo_DeivisonArthur * /
 
 EUREKA!!!! Bem com esses 2 tipos de comentários conseguimos colocar a string que vamos buscar dentro de todos os tipos de arquivos, desde:
 HTML, CSS, JS, PHP,... E assim também conseguiriamos buscar todos os arquivos que contenham a string buscada, independentemente 
